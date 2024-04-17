@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Les Femmes</title>
+  <link rel="icon" href="https://static.thenounproject.com/png/623415-200.png">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Part 1: Navbar Starter Code -->
+  <div class="navbar">
+    <ul>
+      <li ><button id="theme-button">Toggle Dark Mode</button></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#BC">Birth Control</a></li>
+      <li><a href="#PP">Planned Parenthood</a></li>
+      <li><a href="#WP">Women's Personals</a></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+  <!-- Part 2: Flexbox Layout Stater Code -->
+  <div class="container revealable">
+      <!-- Content of the first container -->
+  </div>
+
+  <div class="container revealable">
+      <!-- Content of the second container -->
+  </div>
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+  
+  <div class="header-container">
+    </div> 
+  
+    <div class="header-title">
+      <div id="header-img">
+        <img src="https://media.istockphoto.com/id/1384149144/vector/multi-ethnic-group-of-women-femininity-concept.jpg?s=612x612&w=0&k=20&c=Fd68bFfiWS8WGhfdQkzQZKnYwatLrzwbNPAzKgVy5gg=" height="300" width="400" alt="Header Image of women from different parts of the world">
+    </div>
+
+  
+    <div class="header-item">
+    </div>
+    <div class="header-item">
+    </div>
+      <div class="header-button">Testimonies</div>
+      <div class="header-button">Information</div>
+  </div>
+  
+  <div class="footer">
+      <li><a href="https://example.com" target="_blank">Learn More About Our Team</a></li>
+      <li><a href="https://example.com" target="_blank">Learn More About Your Choices</a></li>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Les Femmes</title>   
+</head>
+
+<body>
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for signing the petition!</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+      <img id="modal-image" src="https://i.pinimg.com/550x/49/c1/3e/49c13e3e96f3a64fb32f38466b0ff915.jpg"/>
+    </div>
+
+  </div>
+    <!--- Headings --->
+  
+  <img class="img1-container" src="https://www.bgdblog.org/wp-content/uploads/2015/09/woc-feminism.png" alt="Heading image with WE ALL CAN DO IT graphic" /> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
+    <h1 class="titles-container">LES FEMMES</h1>
+    <h3 class="hex-container">Being a women is beautiful. To be a women is to share information about reproductive health. You're body is beautiful. </h3>
+    <button type="button" class="bt-container">Share Your Experience</button>
+    <button type="button" class="bt-container">More Resources</button>
+
+
+    <!--- About --->
+    <h2 class="titles-container">ABOUT MY TOPIC</h2>
+    <p class="mainp-container">There is plenty of information online about reproductive health and a women's body, but not all of it is accurate or helpful. Here you will find everything you need in order to make the right decisions for your own body. Not everything works for everyone, so it is important to be aware of your own body and make the right choices.
+    </p>
+
+
+    <!--- Data --->
+
+    <h3 class="titles-container">Data about my topic</h3>
+    <img class="img2-container" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8cba9b30761023.5639f18980df1.jpg" alt= "Women coming together image" />
+    <h4>Add some charts + captions that illustrate my topic and why it is a problem </h4>
+
+    <ul>
+        <li> less than 15%</li>
+        <li> 15%-25%</li>
+        <li> 25%-35%</li>
+        <li> 35%-45%</li>
+        <li> >45%</li>
+    </ul>
+    <!--- Impact --->
+    <h2 class="titles-container">Impact!</h2>
+
+    <img class="img3-container" src="https://cdn.britannica.com/57/239457-050-D6795C07/Norma-McCorvey-left-with-lawyer-1989-outside-Supremem-Court.jpg?w=400&h=300&c=crop" alt="Women protesting for Roe V. Wade"/>
+  <p class="hex-container"> The womens sufferage movement of the mid-19th century got the ball moving for future fights such as Roe V. Wade</p>
+  
+  <div class="petition" id="petition">
+
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+
+        <div class="petition-para">
+          <p> Sometimes life will bite you in the ass, but that doesn't mean you should be down! Keep on moving and I promise you life gets better!</p>
+        </div>
+
+        <div class="signatures">
+          <p>🖊️ DJ from Brooklyn supports this.</p>
+          <p>🖊️ Amy from Queens supports this.</p>
+          <p>🖊️ Teresa from Harlem supports this.</p>
+          
+        </div>
+
+      </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" name="nameInput" required>
+      <label for="hometownInput">Hometown:</label>
+      <input type="text" id="hometownInput" name="hometownInput" required>
+      <label for="emailInput">Email:</label>
+      <input type="text" id="emailInput" name="emailInput" required>
+      <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+    </form>
+
+     <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+  </div>
+  
+
+    <h3 class="titles-container">Where can this problem have lasting effects?</h3>
+    <p class="mainp-container">Why?
+    </p>
+
+    <img class="img4-container" src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,q_auto/v1656617634/content-items/011/660/849/%2540liberaljane%2520%25281%2529-original.PNG?1656617634" height="200" width="150" alt="Img of women sitting with the saying Attacks on Abortion anywhere threaten our rights EVERYWHERE"/>
+    <h3 class="titles-container" >Where else can this problem have lasting effects?</h3>
+    <p class="mainp-container">Why?
+    </p>
+
+    <img class="img5-container" src="https://api.time.com/wp-content/uploads/2020/03/1973_Jane-Roe.jpg" height="200" width="150" alt="TIMES cover of women protesting their rights"/>
+    <h3 class="titles-container" >Where else else can this problem have lasting effects?</h3>
+    <p class="mainp-container">Why?
+    </p>
+
+
+    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+    <h2 class="titles-container">Recent News</h2>
+  <iframe class="vid1-container" src="https://www.youtube.com/embed/SkQfOaMa83A?si=nRyYxq7XsK-IeWaK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="Womens Health Video"> </iframe>
+
+    <a class="artx-container"
+        href="https://states.guttmacher.org/policies/?gad_source=1&gclid=Cj0KCQiA5rGuBhCnARIsAN11vgR8uqSa6Dog3yLcCQlEOtW0bqwWvHhzVmCNioz_uLvilTf9ksz7WH8aAtyxEALw_wcB">
+        <article>
+            <h3 class="titles-container">Rules per US State</h3>
+            <p class="mainp-container"> Since the Supreme Court overturned Roe v. Wade, every state is able to make different laws for abortions and other types of womens reproductive health.</p>
+        </article>
+    </a>
+</body>
+
+</html>
